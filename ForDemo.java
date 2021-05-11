@@ -6,7 +6,7 @@ public class ForDemo {
 		int i,num,fact=1;
 		Scanner s=new Scanner(System.in);
 		System.out.println("Enter any number");
-		num=s.nextInt();
+		num=5;
 		for(i=1;i<=num;i++)
 			fact*=i;
 		System.out.println("Factorial of "+num+" is "+fact);
